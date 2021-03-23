@@ -14,7 +14,7 @@ public class SampleTest {
 
     @Test(dataProvider="test data")
     public void test22(String name){
-        System.out.println("Everything is ok 2 "+name);
+        System.out.println("Everything is ok then 2 "+name);
     }
     @BeforeMethod
     public void test2(){
